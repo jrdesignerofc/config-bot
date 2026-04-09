@@ -1,0 +1,129 @@
+{
+  "brand": "Jr Store",
+  "items": [
+    {
+      "id": "example_app",
+      "name": {
+        "pt": "Programa Exemplo",
+        "en": "Example Program"
+      },
+      "short_description": {
+        "pt": "Catálogo de demonstração para você substituir pelas configs reais.",
+        "en": "Demo catalog for you to replace with the real configs."
+      },
+      "thumbnail": null,
+      "configs": [
+        {
+          "id": "default_pack",
+          "name": {
+            "pt": "Config Default",
+            "en": "Default Config"
+          },
+          "description": {
+            "pt": "Exemplo de entrega com shared code em mensagem privada.",
+            "en": "Example delivery using a shared code in direct message."
+          },
+          "private_intro": {
+            "pt": "Segue sua config organizada pela Jr Store.",
+            "en": "Here is your config package organized by Jr Store."
+          },
+          "instructions": {
+            "pt": [
+              "Abra o programa correspondente.",
+              "Cole o código no local indicado.",
+              "Revise os binds antes de usar."
+            ],
+            "en": [
+              "Open the corresponding program.",
+              "Paste the code in the indicated field.",
+              "Review the binds before using it."
+            ]
+          },
+          "binds": {
+            "pt": [
+              "F1: exemplo de bind 1",
+              "F2: exemplo de bind 2"
+            ],
+            "en": [
+              "F1: sample bind 1",
+              "F2: sample bind 2"
+            ]
+          },
+          "notes": {
+            "pt": [
+              "Substitua este texto pelas observações reais do seu material.",
+              "Você pode incluir compatibilidade, perfil recomendado e observações finais."
+            ],
+            "en": [
+              "Replace this text with the real notes from your material.",
+              "You can include compatibility, recommended profile, and final notes."
+            ]
+          },
+          "assets": [
+            {
+              "type": "text",
+              "label": {
+                "pt": "Shared code",
+                "en": "Shared code"
+              },
+              "content": {
+                "pt": "SHARED-CODE-EXAMPLE-PT",
+                "en": "SHARED-CODE-EXAMPLE-EN"
+              },
+              "filename": "shared_code.txt"
+            }
+          ]
+        },
+        {
+          "id": "file_pack",
+          "name": {
+            "pt": "Config com arquivo",
+            "en": "File-based config"
+          },
+          "description": {
+            "pt": "Exemplo de entrega com arquivo anexado no privado.",
+            "en": "Example delivery using an attached file in DM."
+          },
+          "instructions": {
+            "pt": [
+              "Baixe o arquivo enviado.",
+              "Importe no local apropriado.",
+              "Confira as observações antes de usar."
+            ],
+            "en": [
+              "Download the attached file.",
+              "Import it in the appropriate place.",
+              "Check the notes before using it."
+            ]
+          },
+          "binds": {
+            "pt": [
+              "F3: exemplo de bind adicional"
+            ],
+            "en": [
+              "F3: extra bind example"
+            ]
+          },
+          "notes": {
+            "pt": [
+              "Coloque o arquivo real dentro de data/files/ e ajuste o path abaixo."
+            ],
+            "en": [
+              "Place the real file inside data/files/ and adjust the path below."
+            ]
+          },
+          "assets": [
+            {
+              "type": "file",
+              "label": {
+                "pt": "Arquivo principal",
+                "en": "Main file"
+              },
+              "path": "files/example_app/sample_config.cfg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
