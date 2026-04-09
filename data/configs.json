@@ -2,78 +2,67 @@
   "hacks": {
     "memesense": {
       "label": "Memesense",
-      "emoji": "🔵",
       "type": "sharedcode",
       "configs": {
-        "rage_hard": {
-          "label": "Rage Hard",
-          "description": "Config agressiva para HvH",
-          "code": "SEU_SHARED_CODE_AQUI",
-          "author": "SeuNick",
-          "updated": "09/04/2025"
+        "closet": {
+          "label": "Ainzy Closet",
+          "description": "Config super legit focada em ESP e sons. Legitbot desativado na maioria das armas para máxima segurança.",
+          "code": "d5c2848ce27eaf33",
+          "risk": "Baixo",
+          "style": "Closet / Legit",
+          "keybinds": [
+            "`V` / `C` — 3rd Person (Toggle)",
+            "`ALT` — TriggerBot (Hold)",
+            "`X` — Legitbot ON/OFF (Toggle)",
+            "`M3` — ESP / Chams (Toggle)"
+          ],
+          "notes": "ESP baseado em sons e armas equipadas. Chams visíveis apenas quando inimigo está visível. SMGs ainda precisam de ajuste manual.",
+          "updated": "06/10/2025"
         },
-        "semi_rage": {
-          "label": "Semi-Rage",
-          "description": "Balanceado entre rage e legit AA",
-          "code": "OUTRO_SHARED_CODE",
-          "author": "SeuNick",
-          "updated": "09/04/2025"
-        }
-      }
-    },
-    "neverlose": {
-      "label": "Neverlose",
-      "emoji": "🟣",
-      "type": "market",
-      "configs": {
-        "rage_v1": {
-          "label": "Rage V1",
-          "description": "Setup completo para HvH",
-          "url": "https://market.neverlose.cc/item/xxxxx",
-          "author": "SeuNick",
-          "updated": "09/04/2025"
-        }
-      }
-    },
-    "bankroll": {
-      "label": "Bankroll",
-      "emoji": "🟡",
-      "type": "file",
-      "configs": {
-        "rage_hard": {
-          "label": "Rage Hard",
-          "description": "Config pesada para HvH",
-          "file": "configs/bankroll/rage_hard.cfg",
-          "author": "SeuNick",
-          "updated": "09/04/2025"
+        "legit": {
+          "label": "Ainzy Legit",
+          "description": "Config legit com baixa chance de Overwatch ban. FOV e smoothness otimizados para jogo natural.",
+          "code": "e798f3c223f354a6",
+          "risk": "Baixo",
+          "style": "Legit",
+          "keybinds": [
+            "`V` / `C` — 3rd Person (Toggle)",
+            "`ALT` — TriggerBot (Hold)",
+            "`X` — Legitbot ON/OFF (Toggle)",
+            "`M3` — ESP / Chams (Toggle)"
+          ],
+          "notes": "Latência adicionada para múltiplas armas. Legitaim assist otimizado. Evite usar Aimlock (aimkeys), pode resultar em ban.",
+          "updated": "06/10/2025"
         },
-        "semi_rage": {
-          "label": "Semi-Rage",
-          "description": "Config equilibrada para HvH",
-          "file": "configs/bankroll/semi_rage.cfg",
-          "author": "SeuNick",
-          "updated": "09/04/2025"
-        }
-      }
-    },
-    "nixware": {
-      "label": "Nixware",
-      "emoji": "🔴",
-      "type": "file",
-      "configs": {
-        "rage_hard": {
-          "label": "Rage Hard",
-          "description": "Config agressiva Nixware",
-          "file": "configs/nixware/rage_hard.cfg",
-          "author": "SeuNick",
-          "updated": "09/04/2025"
+        "legitrage": {
+          "label": "Ainzy LegitRage",
+          "description": "Semi config focada em segurança. Requer pre-aim manual e predição de alvo. Conceito safe com AimAssist levemente tweakado.",
+          "code": "95f5d7e2acac9b66",
+          "risk": "Médio",
+          "style": "Safe Semi",
+          "keybinds": [
+            "`X` — Autofire Rage (Toggle)",
+            "`M3` — Autowall ON/OFF (Toggle)",
+            "`ALT` — MinDmg Override (Toggle)",
+            "`C` — 3rd Person (Toggle)"
+          ],
+          "notes": "Pre-aim necessário, prefira head points e áreas hitáveis. FOV levemente baixo, mantenha a mira próxima. Não altere configurações críticas do Legitbot.",
+          "updated": "06/10/2025"
         },
-        "semi_rage": {
-          "label": "Semi-Rage",
-          "description": "Config equilibrada Nixware",
-          "file": "configs/nixware/semi_rage.cfg",
-          "author": "SeuNick",
-          "updated": "09/04/2025"
+        "semi": {
+          "label": "Ainzy Semi",
+          "description": "Config com as settings mais otimizadas e testadas do Memesense. Suporte completo a AWP, Scout, Deagle e pistols.",
+          "code": "36755962085bce23",
+          "risk": "Alto",
+          "style": "Semi-Rage",
+          "keybinds": [
+            "`X` — Autofire Rage (Toggle)",
+            "`M3` — Autowall ON/OFF (Toggle)",
+            "`ALT` — MinDmg Override (Toggle)",
+            "`C` — 3rd Person (Toggle)"
+          ],
+          "notes": "Use por sua conta e risco. Evite SSG enquanto semi rageando. Bhop incluído. Aimtime desativado para melhor performance.",
+          "updated": "06/10/2025"
         }
       }
     }
